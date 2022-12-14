@@ -15,13 +15,17 @@
         <img src="images/entete.jpg" title="Photo de l’église prise par Mme Hélène Paré" />
         <div>Extraits de documents d’époque</div>
       </header>
-      <section><div class='mg-a fit'>
-<button id='ibutton0' onclick='isection(0)'>Extraits du journal « L’abitibien »</button>
-<button id='ibutton1' onclick='isection(1)'>Extraits du journal « La Gazette du Nord »</button>
-<button id='ibutton2' onclick='isection(2)'>Extraits du livre du 50ème de Senneterre</button>
-<button onclick='location.href=&#39;historique.html&#39;'>Retour à la page Historique</button>
-</div>
-<div id='section0'>
+      <section><input checked id='is1' name='slider' type='radio'>
+<input id='is2' name='slider' type='radio'>
+<input id='is3' name='slider' type='radio'>
+<nav class='sub'>
+<label class='is1' for='is1'>Extraits du journal « L’abitibien »</label>
+<label class='is2' for='is2'>Extraits du journal « La Gazette du Nord »</label>
+<label class='is3' for='is3'>Extraits du livre du 50ème de Senneterre</label>
+<div class='slider'></div>
+</nav>
+<div class='sections'>
+<div class='content content-1'>
 <p class='section'>Extraits du journal « L’abitibien »</p>
 <h2 id="fvrier-1920-p-3">19 février 1920, p. 3</h2>
 
@@ -81,7 +85,7 @@
 
 
 </div>
-<div id='section1'>
+<div class='content content-2'>
 <p class='section'>Extraits du journal « La Gazette du Nord »</p>
 <h2 id="janvier-1923-p-1">4 janvier 1923, p. 1</h2>
 
@@ -109,7 +113,7 @@
 
 
 </div>
-<div id='section2'>
+<div class='content content-3'>
 <p class='section'>Extraits du livre du 50ème de Senneterre</p>
 <h2 id="rection-de-la-paroisse-st-paul">Érection de la paroisse St-Paul</h2>
 
@@ -142,6 +146,7 @@
 <p><em>Yvon Gervais, Paul Mailhot</em></p>
 
 
+</div>
 </div>
 <br style='clear: both'>
 </section>

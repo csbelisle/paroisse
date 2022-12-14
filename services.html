@@ -15,22 +15,23 @@
         <img src="images/entete.jpg" title="Photo de l’église prise par Mme Hélène Paré" />
         <div>Services paroissiaux</div>
       </header>
-      <section><table cellpadding='0' cellspacing='0' class='mg-a fit'>
-<tr>
-<td>
-<button id='ibutton0' onclick='isection(0)'>Service d’initiation chrétienne</button>
-<button id='ibutton1' onclick='isection(1)'>Célébrations sacramentelles</button>
-<button id='ibutton2' onclick='isection(2)'>Vie paroissiale</button>
-</td>
-<td style='width: 0.3em'></td>
-<td>
-<button id='ibutton3' onclick='isection(3)'>Conseil de Fabrique</button>
-<button id='ibutton5' onclick='isection(5)'>Équipe locale d’animation pastorale</button>
-<button id='ibutton4' onclick='isection(4)'>Secrétariat</button>
-</td>
-</tr>
-</table>
-<div id='section0'>
+      <section><input checked id='is1' name='slider' type='radio'>
+<input id='is2' name='slider' type='radio'>
+<input id='is3' name='slider' type='radio'>
+<input id='is4' name='slider' type='radio'>
+<input id='is5' name='slider' type='radio'>
+<input id='is6' name='slider' type='radio'>
+<nav class='sub'>
+<label class='is1' for='is1'>Service d’initiation chrétienne</label>
+<label class='is2' for='is2'>Célébrations sacramentelles</label>
+<label class='is3' for='is3'>Vie paroissiale</label>
+<label class='is4' for='is4'>Conseil de Fabrique</label>
+<label class='is5' for='is5'>Équipe locale d’animation pastorale</label>
+<label class='is6' for='is6'>Secrétariat</label>
+<div class='slider'></div>
+</nav>
+<div class='sections'>
+<div class='content content-1'>
 <p class='section'>Service d’initiation chrétienne</p>
 <p class='texte'>
 <span class='s'>Préparation au Baptême</span>
@@ -49,7 +50,7 @@
 : Philbert Ntungwanayo, ptre
 </p>
 </div>
-<div id='section1'>
+<div class='content content-2'>
 <p class='section'>Célébrations sacramentelles</p>
 <p class='texte'><span class='s'>Sacrement du Pardon</span>: Avant chaque messe et sur demande au secrétariat.
 </p>
@@ -62,7 +63,7 @@
 <p class='texte'><span class='s'>Sacrement des malades</span>: L’Onction des malades est pour les malades. Ne pas attendre à la dernière minute pour demander le prêtre. Tél. : 737-2045.
 </p>
 </div>
-<div id='section2'>
+<div class='content content-3'>
 <p class='section'>Vie paroissiale</p>
 <div class='texte'>
 <table cellpadding='0' cellspacing='0' style='margin: 0; padding: 0' summary='tableau'>
@@ -123,7 +124,7 @@ Marie-Michèle Desputeau (819-856-4406)
 <br>
 </div>
 </div>
-<div id='section3'>
+<div class='content content-4'>
 <p class='section'>Conseil de Fabrique</p>
 <div class='mg-a fit mt-2'>
 <p class='texte'>
@@ -141,7 +142,7 @@ Marcel Ayotte, marguillier (2022)
 </p>
 </div>
 </div>
-<div id='section5'>
+<div class='content content-5'>
 <p class='section'>Équipe locale d’animation pastorale</p>
 <div class='mg-a fit mt-2'>
 <p class='texte'>
@@ -155,7 +156,7 @@ Lucie Marcoux, représentante du conseil de Fabrique
 </p>
 </div>
 </div>
-<div id='section4'>
+<div class='content content-6'>
 <p class='section'>Secrétariat</p>
 <div class='mg-a fit mt-2'>
 <p class='texte'>
@@ -165,6 +166,7 @@ Du mardi au jeudi de 9h00 à 16h00
 <br>
 Téléphone : (819) 737-2045
 </p>
+</div>
 </div>
 </div>
 </section>
