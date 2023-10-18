@@ -37,6 +37,10 @@ main {
     padding-block: 0 !important;
     font-size: 1.35rem !important;
   }
+
+  .w50 {
+    width: 70%;
+  }
 }
 
 #myOverlay {
@@ -223,7 +227,8 @@ img.photo {
 
 @media screen and (max-width: 600px) {
   .card.w50, .kcard.w50 {
-    width: 70%;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
   }
 
   .card.w70, .kcard.w70 {

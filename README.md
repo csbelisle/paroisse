@@ -11,3 +11,4 @@ Les outils utilisés sont:
 3. CoffeeScript
 4. Parcel pour fédérer le tout
 
+Une toute nouvelle mouture a été mis en ligne le 16 octobre en soirée. Je l’appelle la version 7.0. Elle utilise les mêmes outils que précédemment mais dans une version bien différente… et j’espère plus efficace.
