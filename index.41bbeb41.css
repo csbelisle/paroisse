@@ -211,7 +211,7 @@ img.photo {
   backdrop-filter: blur(5px) !important;
 }
 
-.card h2, .kcard h2, .card h3, .kcard h3 {
+.card h2, .card h3, .kcard h2, .kcard h3 {
   font-weight: bold;
 }
 
@@ -258,12 +258,20 @@ img.photo {
   float: right;
 }
 
-.clear-left {
-  clear: left;
+.float-left {
+  float: left;
 }
 
 .clear {
   clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
 }
 
 .flex {
@@ -278,8 +286,20 @@ img.photo {
   align-items: flex-end;
 }
 
+.flex-top {
+  align-items: flex-start;
+}
+
 .flex-center {
   justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .small {
