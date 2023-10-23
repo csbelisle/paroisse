@@ -151,8 +151,10 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-  .subBar {
+  #subBar {
     margin-left: 0 !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
     margin-inline: auto !important;
     position: relative !important;
   }
