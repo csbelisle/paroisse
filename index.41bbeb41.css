@@ -168,7 +168,7 @@ main {
     padding-inline: 0 !important;
   }
 
-  .w3-container p {
+  .w3-container p, .w3-container blockquote {
     font-size: 1.1rem;
   }
 
