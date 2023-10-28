@@ -1761,6 +1761,10 @@ main {
   .w50 {
     width: 70%;
   }
+
+  #clip {
+    display: none;
+  }
 }
 
 #myOverlay {
