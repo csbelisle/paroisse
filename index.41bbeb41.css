@@ -1830,6 +1830,7 @@ main {
     letter-spacing: 95%;
     text-align: right;
     vertical-align: middle;
+    padding-right: .5rem;
   }
 
   #hero a, #hero button {
