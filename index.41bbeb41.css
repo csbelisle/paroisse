@@ -1736,33 +1736,6 @@ main {
   padding: 8px 16px !important;
 }
 
-@media only screen and (max-width: 600px) {
-  main {
-    width: 100%;
-    margin: 0;
-  }
-
-  #hero {
-    border-radius: 8px;
-  }
-
-  #hero a {
-    letter-spacing: 95%;
-    text-align: right;
-    vertical-align: middle;
-  }
-
-  #hero a, #hero button {
-    margin-block: 0 !important;
-    padding-block: 0 !important;
-    font-size: 1.25rem !important;
-  }
-
-  .w50 {
-    width: 70%;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   #clip {
     display: none;
@@ -1841,6 +1814,33 @@ main {
 
 #hamburger {
   background-color: #00000003;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  #hero {
+    border-radius: 8px;
+  }
+
+  #hero a {
+    letter-spacing: 95%;
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  #hero a, #hero button {
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+    font-size: 1.15rem !important;
+  }
+
+  .w50 {
+    width: 70%;
+  }
 }
 
 #mySidebar {
