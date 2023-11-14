@@ -12,6 +12,11 @@ w3_close = function() {
 };
 openLink = function(evt, animName) {
     var article, articles, i, j, len, len1, tablink, tablinks;
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    });
     articles = document.getElementsByClassName("article");
     for(i = 0, len = articles.length; i < len; i++){
         article = articles[i];

@@ -1877,6 +1877,10 @@ main {
   color: #2196f3 !important;
 }
 
+#subBar button:not(:last-of-type) {
+  border-bottom: 1px solid #ccc !important;
+}
+
 @media screen and (max-width: 600px) {
   #subBar {
     margin-left: 0 !important;
