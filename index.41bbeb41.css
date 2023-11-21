@@ -2097,3 +2097,7 @@ a.deco-none:hover {
   color: #8b0000;
 }
 
+.sect {
+  display: none;
+}
+
