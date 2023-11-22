@@ -2035,6 +2035,26 @@ img.photo {
   flex-direction: row;
 }
 
+@media screen and (max-width: 600px) {
+  .flex-mobile {
+    flex-direction: column;
+    text-align: justify !important;
+  }
+
+  .flex-mobile-reverse {
+    flex-direction: column-reverse;
+  }
+
+  p {
+    text-align: justify !important;
+  }
+
+  p.photodescr {
+    font-size: .8em;
+    margin-inline: 1.5rem !important;
+  }
+}
+
 .small {
   font-size: small;
 }
