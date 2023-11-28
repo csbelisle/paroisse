@@ -1818,29 +1818,36 @@ main {
 
 @media only screen and (max-width: 600px) {
   main {
-    width: 100%;
     margin: 0;
+    padding-inline: 0;
+    width: 100% !important;
   }
 
   #hero {
     border-radius: 8px;
+    margin-inline: 0 !important;
+    padding: 0 !important;
   }
 
   #hero a {
-    letter-spacing: 95%;
+    letter-spacing: 90%;
     text-align: right;
-    vertical-align: middle;
-    padding-right: .5rem;
+    vertical-align: middle !important;
+    padding-right: 8px !important;
+    font-size: 1.05rem !important;
   }
 
-  #hero a, #hero button {
-    margin-block: 0 !important;
-    padding-block: 0 !important;
-    font-size: 1.15rem !important;
+  #hero button {
+    padding-left: 8px !important;
+    font-size: 1.05rem !important;
   }
 
   .w50 {
     width: 70%;
+  }
+
+  #pageTitle {
+    font-size: 1.25rem;
   }
 }
 
