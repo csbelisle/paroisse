@@ -38,7 +38,7 @@ if (sections) {
         section = sections[i];
         section.id = ++sectId;
         title = section.querySelector("h2").textContent;
-        subItems += '<button class="w3-bar-item w3-button tablink" onclick="openLink(event, ' + sectId + ')">' + title + "</button>";
+        subItems += `<button class='w3-bar-item w3-button tablink' onclick='openLink(event, ${sectId})'>${title}</button>`;
     }
     document.querySelector("#subBar").innerHTML = subItems;
 }
