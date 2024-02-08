@@ -965,6 +965,18 @@ a[href^="http"]:hover {
   justify-content: right !important;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .deces {
   border-collapse: collapse;
   width: 100%;

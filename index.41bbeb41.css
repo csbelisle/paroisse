@@ -2258,3 +2258,30 @@ a.deco-none:hover {
   display: block;
 }
 
+#mySidebar a {
+  text-align: left;
+  white-space: normal;
+  float: none;
+  vertical-align: middle;
+  color: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+  border: none;
+  outline: 0;
+  width: 100%;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+#mySidebar a:hover {
+  color: #fff !important;
+  background-color: #2196f3 !important;
+}
+
