@@ -2285,3 +2285,33 @@ a.deco-none:hover {
   background-color: #2196f3 !important;
 }
 
+.linklist {
+  margin-inline: auto;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+.linklist span {
+  padding-left: .5rem;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+.linklist a {
+  color: #336;
+  border-radius: 999px;
+  padding-inline: .3em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.linklist a:hover {
+  filter: invert(100);
+  background-color: #eeeeaac0;
+}
+
+.linklist a:active {
+  filter: invert(100) brightness(150%);
+  background-color: #ffffff80;
+}
+
