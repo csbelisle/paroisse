@@ -551,6 +551,102 @@ a[href^="http"]:hover {
   }
 }
 
+.border-black {
+  border-color: #000 !important;
+}
+
+.border-white {
+  border-color: #fff !important;
+}
+
+.border-gray {
+  border-color: gray !important;
+}
+
+.border-red {
+  border-color: red !important;
+}
+
+.border-blue {
+  border-color: #00f !important;
+}
+
+.border-green {
+  border-color: green !important;
+}
+
+.border-cyan {
+  border-color: #0ff !important;
+}
+
+.border-yellow {
+  border-color: #ff0 !important;
+}
+
+.border-orange {
+  border-color: orange !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-gray {
+  background-color: gray !important;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+.bg-blue {
+  background-color: #00f !important;
+}
+
+.bg-green {
+  background-color: green !important;
+}
+
+.bg-cyan {
+  background-color: #0ff !important;
+}
+
+.bg-yellow {
+  background-color: #ff0 !important;
+}
+
+.bg-orange {
+  background-color: orange !important;
+}
+
+.border-radius-3 {
+  border-radius: 3px !important;
+}
+
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.border-radius-7 {
+  border-radius: 7px !important;
+}
+
+.border-1 {
+  border-width: 1px !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
+
+.border-3 {
+  border-width: 3px !important;
+}
+
 .mg-1 {
   margin: 1rem !important;
 }
@@ -575,10 +671,6 @@ a[href^="http"]:hover {
   margin-inline: 3rem !important;
 }
 
-.mx-4 {
-  margin-inline: 4rem !important;
-}
-
 .mx-5 {
   margin-inline: 5rem !important;
 }
@@ -597,10 +689,6 @@ a[href^="http"]:hover {
 
 .my-3 {
   margin-block: 3rem !important;
-}
-
-.my-4 {
-  margin-block: 4rem !important;
 }
 
 .my-5 {
@@ -623,10 +711,6 @@ a[href^="http"]:hover {
   margin-top: 3rem !important;
 }
 
-.mt-4 {
-  margin-top: 4rem !important;
-}
-
 .mt-5 {
   margin-top: 5rem !important;
 }
@@ -641,10 +725,6 @@ a[href^="http"]:hover {
 
 .mb-3 {
   margin-bottom: 3rem !important;
-}
-
-.mb-4 {
-  margin-bottom: 4rem !important;
 }
 
 .mb-5 {
@@ -663,10 +743,6 @@ a[href^="http"]:hover {
   margin-left: 3rem !important;
 }
 
-.ml-4 {
-  margin-left: 4rem !important;
-}
-
 .ml-5 {
   margin-left: 5rem !important;
 }
@@ -681,10 +757,6 @@ a[href^="http"]:hover {
 
 .mr-3 {
   margin-right: 3rem !important;
-}
-
-.mr-4 {
-  margin-right: 4rem !important;
 }
 
 .mr-5 {
@@ -799,8 +871,12 @@ a[href^="http"]:hover {
   width: 75% !important;
 }
 
-.w-full {
+.w-auto {
   width: auto !important;
+}
+
+.w-full {
+  width: 100% !important;
 }
 
 .fit {
@@ -829,8 +905,8 @@ a[href^="http"]:hover {
 }
 
 .h-fit {
-  width: -moz-fit-content !important;
-  width: fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
 }
 
 .float, .float-left {
@@ -857,12 +933,12 @@ a[href^="http"]:hover {
   font-weight: bold !important;
 }
 
-.fnt-xb {
-  font-weight: 900 !important;
-}
-
 .fnt-sb {
   font-weight: semibold !important;
+}
+
+.fnt-xb {
+  font-weight: 900 !important;
 }
 
 .fnt-i {
@@ -887,6 +963,10 @@ a[href^="http"]:hover {
 
 .fs-12 {
   font-size: 1.2rem !important;
+}
+
+.fs-normal {
+  font-size: 1rem !important;
 }
 
 .fs-09 {
@@ -966,15 +1046,15 @@ a[href^="http"]:hover {
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 
 .flex-row {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 
 .flex-column {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .deces {
