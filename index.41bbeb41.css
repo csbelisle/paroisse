@@ -316,6 +316,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 16px;
 }
 
+.w3-btn {
+  letter-spacing: -.05rem;
+  font-weight: bold;
+}
+
 .w3-btn, .w3-button {
   vertical-align: middle;
   color: inherit;
@@ -328,13 +333,15 @@ h1, h2, h3, h4, h5, h6 {
   user-select: none;
   -khtml-user-select: none;
   border: none;
-  padding: 8px 16px;
+  padding: 6px 12px;
+  font-size: 1rem;
   text-decoration: none;
   display: inline-block;
   overflow: hidden;
 }
 
 .w3-btn:hover {
+  scale: 1.05;
   box-shadow: 0 8px 16px #0003, 0 6px 20px #00000030;
 }
 
@@ -2313,5 +2320,42 @@ a.deco-none:hover {
 .linklist a:active {
   filter: invert(100) brightness(150%);
   background-color: #ffffff80;
+}
+
+.my-button {
+  letter-spacing: -.05rem;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+  border: 1px solid #2196f3;
+  border-radius: 999px;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  color: #000 !important;
+  background-color: #dff !important;
+}
+
+.my-button:hover {
+  scale: 1.05;
+  box-shadow: 0 8px 16px #0003, 0 6px 20px #00000030;
+}
+
+.my-button:disabled {
+  cursor: not-allowed;
+  opacity: .3;
+  pointer-events: none;
+}
+
+.my-button.w3-disabled:hover, .my-button:disabled:hover {
+  box-shadow: none;
 }
 
