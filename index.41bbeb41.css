@@ -1758,7 +1758,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-image: url("bg.b821250c.jpg");
-  background-repeat: repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   font-size: 1.2rem !important;
 }

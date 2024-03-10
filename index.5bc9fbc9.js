@@ -11,7 +11,7 @@ w3_close = function() {
     Overlay.style.display = "none";
 };
 goTop = function() {
-    return window.scrollTo({
+    window.scrollTo({
         top: 0,
         left: 0,
         behavior: "smooth"
