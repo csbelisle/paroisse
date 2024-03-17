@@ -2164,6 +2164,10 @@ img.photo {
   padding-left: .5em;
 }
 
+#horaire td.red {
+  color: red;
+}
+
 #horaire .local {
   color: #000;
 }
