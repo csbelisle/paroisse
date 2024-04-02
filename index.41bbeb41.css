@@ -2102,6 +2102,14 @@ img.photo {
   justify-content: center;
 }
 
+.flex-left {
+  justify-content: left;
+}
+
+.flex-right {
+  justify-content: right;
+}
+
 .flex-column {
   flex-direction: column;
 }
