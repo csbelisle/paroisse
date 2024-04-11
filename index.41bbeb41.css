@@ -1973,6 +1973,10 @@ main {
   margin-left: 180px;
 }
 
+.w3-sidebar {
+  border-radius: 8px;
+}
+
 .w3-sidebar button:hover {
   background-color: #add8e6 !important;
 }
