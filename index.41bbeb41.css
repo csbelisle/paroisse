@@ -1757,16 +1757,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-image: url("bg.b821250c.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: linear-gradient(246deg, #eaeaea0a 0% 33.3%, #4545450a 33.3% 66.6%, #bdbdbd0a 66.6% 99.9%), linear-gradient(81deg, #7e7e7e0d 0% 33.3%, #ededed0d 33.3% 66.6%, #4a4a4a0d 66.6% 99.9%), linear-gradient(14deg, #03030314 0% 33.3%, #9c9c9c14 33.3% 66.6%, #c7c7c714 66.6% 99.9%), linear-gradient(323deg, #5252520f 0% 33.3%, #b3b3b30f 33.3% 66.6%, #d4d4d40f 66.6% 99.9%), linear-gradient(32deg, #46464605 0% 33.3%, #a6a6a605 33.3% 66.6%, #35353505 66.6% 99.9%), linear-gradient(38deg, #81818117 0% 33.3%, #26262617 33.3% 66.6%, #99999917 66.6% 99.9%), linear-gradient(63deg, #33333305 0% 33.3%, #0c0c0c05 33.3% 66.6%, #9e9e9e05 66.6% 99.9%), linear-gradient(227deg, #3f3f3f08 0% 33.3%, #09090908 33.3% 66.6%, #55555508 66.6% 99.9%), linear-gradient(103deg, #f7f7f712 0% 33.3%, #5d5d5d12 33.3% 66.6%, #d0d0d012 66.6% 99%), linear-gradient(0deg, #0b91d7, #6efc29);
   font-size: 1.2rem !important;
 }
 
 main {
-  background-color: #00008008;
+  background-color: #0000800d;
   border: 1px solid #0000801a;
   border-radius: 12px;
   margin-block: .5rem;
@@ -1857,7 +1853,7 @@ main {
 }
 
 #hero {
-  background-color: #0000780d;
+  background-color: #f4f4f480;
 }
 
 .blur {
@@ -1905,7 +1901,7 @@ main {
 
 #mySidebar {
   z-index: 5;
-  background-color: #fff;
+  background-color: #f4f4f480;
   border-radius: 8px;
   width: -moz-fit-content;
   width: fit-content;
@@ -1948,12 +1944,37 @@ main {
 #pageTitle {
   text-align: center;
   text-shadow: 1px 1px #444;
-  font-weight: bold;
-  color: #2196f3 !important;
+  color: #f4f4f4;
+  margin-inline: auto;
+  background-color: #0000801a;
+  border: 1px solid #00008040;
+  border-radius: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: .5rem;
+  padding: .2rem 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#subBar {
+  width: 180px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 1rem;
+  background-color: #f4f4f480 !important;
 }
 
 #subBar button:not(:last-of-type) {
   border-bottom: 1px solid #ccc !important;
+}
+
+#content-with-subBar {
+  margin-left: 180px;
+}
+
+.w3-sidebar button:hover {
+  background-color: #add8e6 !important;
 }
 
 @media screen and (width <= 600px) {
@@ -2003,7 +2024,7 @@ main {
 
 img.photo {
   color: #777;
-  background-color: #f4f4f4;
+  background-color: #f4f4f480;
   border: 1px solid #b3b3b3b3;
   margin: 10px;
   padding: 10px;
@@ -2011,7 +2032,7 @@ img.photo {
 }
 
 .card, .kcard {
-  background-color: #00002008;
+  background-color: #f4f4f480;
   border-radius: 8px;
   margin: 16px;
   padding: 8px 16px;
@@ -2277,6 +2298,10 @@ a.deco-none:hover {
 
 #anyMod.modified {
   display: block;
+}
+
+#mySidebar {
+  background-color: #f4f4f480 !important;
 }
 
 #mySidebar a {
