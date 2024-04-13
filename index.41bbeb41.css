@@ -2229,6 +2229,11 @@ a.deco-none {
 
 a.deco-none:hover {
   color: #8b0000;
+  cursor: url("arrowhead-rounded-outline-red.c888dee4.svg") 2 2, pointer !important;
+}
+
+a.deco-none:hover .card {
+  transform: scale(1.05);
 }
 
 .sect {
