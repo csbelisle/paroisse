@@ -1974,6 +1974,12 @@ main {
   margin-left: 180px;
 }
 
+@media screen and (width <= 600px) {
+  #content-with-subBar {
+    margin-left: 0;
+  }
+}
+
 .w3-sidebar {
   border-radius: 8px;
 }
@@ -2238,6 +2244,12 @@ a.deco-none:hover .card {
 
 .sect {
   display: none;
+}
+
+@media screen and (width <= 600px) {
+  .sect {
+    margin-left: 0;
+  }
 }
 
 .aqua-button {
