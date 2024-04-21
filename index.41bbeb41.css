@@ -1762,6 +1762,12 @@ body {
   font-size: 1.2rem !important;
 }
 
+@media screen and (width <= 600px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 main {
   background-color: #0000800d;
   border: 1px solid #0000801a;
@@ -1896,7 +1902,7 @@ main {
   }
 
   #pageTitle {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
   }
 }
 
@@ -1974,12 +1980,6 @@ main {
   margin-left: 180px;
 }
 
-@media screen and (width <= 600px) {
-  #content-with-subBar {
-    margin-left: 0;
-  }
-}
-
 .w3-sidebar {
   border-radius: 8px;
 }
@@ -2002,12 +2002,16 @@ main {
     padding-inline: 0 !important;
   }
 
+  #content-with-subBar {
+    margin-left: 0;
+  }
+
   .w3-container {
     padding-inline: 0 !important;
   }
 
   .w3-container p, .w3-container blockquote {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .w3-container h1 {
@@ -2229,6 +2233,12 @@ img.photo {
   font-weight: normal;
 }
 
+@media screen and (width <= 600px) {
+  #horaire td {
+    font-size: 1rem;
+  }
+}
+
 a.deco-none {
   text-decoration: none !important;
 }
@@ -2244,12 +2254,6 @@ a.deco-none:hover .card {
 
 .sect {
   display: none;
-}
-
-@media screen and (width <= 600px) {
-  .sect {
-    margin-left: 0;
-  }
 }
 
 .aqua-button {
