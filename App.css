@@ -2604,3 +2604,8 @@ a.x-button:hover {
 a.x-button:visited {
   color: darkblue;
 }
+
+.strikethrough {
+  text-decoration: line-through wavy darkred 2px;
+  color: rgba(0, 0, 0, 0.5);
+}
