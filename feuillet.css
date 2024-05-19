@@ -60,21 +60,25 @@ table.revenus {
   margin-block: 1rem;
   font-size: 125%;
 }
+
 table.revenus td {
   text-align: left;
   font-size: 1rem;
 }
+
 table.revenus td.fltop {
   text-align: right;
   padding-right: 0.3rem;
   border-top: 2px solid black;
   border-left: 2px solid black;
 }
+
 table.revenus td.fctop {
   text-align: right;
   padding-right: 0.3rem;
   border-block: 2px solid black;
 }
+
 table.revenus td.frtop {
   text-align: right;
   padding-right: 0.3rem;
@@ -82,27 +86,33 @@ table.revenus td.frtop {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 }
+
 table.revenus td.flcen {
   padding-left: 0.3rem;
   border-inline: 2px solid black;
 }
+
 table.revenus td.flbot {
   padding-left: 0.3rem;
   border-inline: 2px solid black;
   border-bottom: 2px solid black;
 }
+
 table.revenus td.fdata {
   text-align: right;
   padding-right: 0.3rem;
 }
+
 table.revenus td.fdataneg {
   text-align: right;
   padding-right: 0;
   color: red;
 }
+
 table.revenus td.fdataneg:before {
   content: "(";
 }
+
 table.revenus td.fdataneg:after {
   content: ")";
 }
@@ -147,11 +157,13 @@ div#page3 {
   background-color: white;
   font-size: 1rem;
 }
+
 .carte p,
 .carte table {
   margin-block: 0.5rem;
   font-size: 1rem;
 }
+
 .carte p.titre {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -166,14 +178,17 @@ article {
   background-color: white;
   font-size: 1em;
 }
+
 article p,
 article table {
   margin-block: 0.5em;
   font-size: 1em;
 }
+
 article > titre {
   display: block;
 }
+
 article > titre, article h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -185,6 +200,7 @@ article > titre, article h2 {
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -198,12 +214,14 @@ a:hover {
   border-block: 3px solid black;
   padding: 6px 28px;
 }
+
 .citation p {
   text-align: center;
   font: bold 1.3rem "Playfair Display", serif;
   margin: 0;
   line-height: 1.1;
 }
+
 .citation p.auteur {
   text-align: right;
   font: normal 1em "Playfair Display", serif;
@@ -231,10 +249,12 @@ img#babillard {
   border-collapse: collapse;
   margin-bottom: 0.5rem;
 }
+
 #calctable tbody {
   margin: 0;
   padding-inline: 0.2rem;
 }
+
 #calctable img {
   float: left;
   margin-left: 0pt;
@@ -242,6 +262,7 @@ img#babillard {
   height: 80px;
   width: 66px;
 }
+
 #calctable td {
   background-color: #fff;
   padding-inline: 3px;
@@ -249,13 +270,16 @@ img#babillard {
   font-size: 1rem;
   font-stretch: condensed;
 }
+
 #calctable tr td:last-child {
   text-align: right;
   white-space: nowrap;
 }
+
 #calctable tr:first-child {
   font-weight: bold;
 }
+
 #calctable tr:first-child td:last-child {
   text-align: left;
   white-space: nowrap;
@@ -269,18 +293,22 @@ img#babillard {
   clear: both;
   font-size: 1rem;
 }
+
 .agenda tbody {
   font-size: 0.8em;
 }
+
 .agenda table {
   border-collapse: collapse;
 }
+
 .agenda td {
   font-family: "Open Sans";
   font-size: 0.9em;
   background-color: #fff;
   padding: 0;
 }
+
 .agenda td.date {
   font-family: "Arial Rounded Mt Bold", Arial, sans-serif;
   font-weight: bold;
@@ -291,61 +319,78 @@ img#babillard {
   border-top: 1px solid white;
   vertical-align: middle;
 }
+
 .agenda td.heure {
   text-align: right;
   font-weight: bold;
 }
+
 .agenda td.modif {
   color: red;
 }
+
 .agenda td.modif span {
   border: 2px solid black;
   margin: 1px;
   color: black !important;
 }
+
 .agenda td.intentions {
   padding-left: 0.5em;
   font-size: 0.9rem;
 }
+
 .agenda tr {
   vertical-align: middle;
 }
+
 .agenda table {
   margin: 0;
   font-size: 1.2rem;
 }
+
 .agenda table td {
   vertical-align: top;
 }
+
 .agenda table td.messe {
   white-space: nowrap;
   padding-right: 5px;
 }
+
 .agenda table td .itpar {
   font-style: italic;
   letter-spacing: -0.05em;
 }
+
 .agenda table td .itpar::before {
   content: " – ";
 }
+
 .agenda table td .addendum {
   letter-spacing: -0.05em;
 }
+
 .agenda table td .addendum::before {
   content: "        (";
 }
+
 .agenda table td .addendum::after {
   content: ")";
 }
+
 .agenda table td .addendum-1 {
   letter-spacing: -0.05em;
 }
+
 .agenda table td .addendum-1::before {
   content: " (";
 }
+
 .agenda table td .addendum-1::after {
   content: ")";
 }
+
 .agenda table td .addendum-sq {
   border: 1px solid black;
   padding-inline: 3px;
@@ -358,15 +403,19 @@ img#babillard {
   border-bottom: 1px solid #336;
   border-right: 1px solid #336;
 }
+
 .data table {
   width: 100%;
 }
+
 .data table td:first-child {
   width: 10%;
 }
+
 .data table td:last-child {
   width: 90%;
 }
+
 .data table table {
   padding: 0px;
 }
@@ -379,6 +428,7 @@ img#babillard {
   border-right: 0px solid white;
   border-bottom: 1px solid #336;
 }
+
 .agendaHead span {
   border-top-right-radius: 1.5em;
   background-color: #336;
@@ -400,10 +450,12 @@ fieldset.svqbox {
   text-align: justify;
   margin-block: 0.5rem;
 }
+
 fieldset.svqbox p:first-of-type {
   margin-top: 0.5rem;
   padding-top: 0;
 }
+
 fieldset.svqbox legend {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
@@ -427,10 +479,12 @@ fieldset.svqbox legend {
 a[href^="mailto:"] {
   text-decoration: none;
 }
+
 a[href^="mailto:"]::before {
   content: "✉ ";
   font-style: normal;
 }
+
 a[href^="mailto:"]:hover {
   color: red;
 }
@@ -438,10 +492,12 @@ a[href^="mailto:"]:hover {
 a[href^="tel:"] {
   text-decoration: none;
 }
+
 a[href^="tel:"]::before {
   content: "✆ ";
   font-style: normal;
 }
+
 a[href^="tel:"]:hover {
   color: red;
 }
@@ -449,10 +505,12 @@ a[href^="tel:"]:hover {
 a[href^=http] {
   text-decoration: none;
 }
+
 a[href^=http]::before {
   content: "🖳 ";
   font-style: normal;
 }
+
 a[href^=http]:hover {
   color: red;
 }
@@ -825,9 +883,11 @@ a[href^=http]:hover {
 .w-75 {
   width: 75% !important;
 }
+
 .w-auto {
   width: auto !important;
 }
+
 .w-full {
   width: 100% !important;
 }
@@ -863,9 +923,11 @@ a[href^=http]:hover {
 .float {
   float: left !important;
 }
+
 .float-left {
   float: left !important;
 }
+
 .float-right {
   float: right !important;
 }
@@ -873,9 +935,11 @@ a[href^=http]:hover {
 .clear {
   clear: both !important;
 }
+
 .clear-left {
   clear: left !important;
 }
+
 .clear-right {
   clear: right !important;
 }
@@ -883,15 +947,19 @@ a[href^=http]:hover {
 .fnt-b {
   font-weight: bold !important;
 }
+
 .fnt-sb {
   font-weight: semibold !important;
 }
+
 .fnt-xb {
   font-weight: 900 !important;
 }
+
 .fnt-i {
   font-style: italic !important;
 }
+
 .fnt-u {
   text-decoration: underline !important;
 }
@@ -959,6 +1027,7 @@ a[href^=http]:hover {
 .red {
   color: red !important;
 }
+
 .red-darker {
   color: #cc0000 !important;
 }
@@ -966,30 +1035,39 @@ a[href^=http]:hover {
 .flex {
   display: flex !important;
 }
+
 .flex-top {
   align-items: top !important;
 }
+
 .flex-middle {
   align-items: center !important;
 }
+
 .flex-bottom {
   align-items: bottom !important;
 }
+
 .flex-left {
   justify-content: left !important;
 }
+
 .flex-center {
   justify-content: center !important;
 }
+
 .flex-right {
   justify-content: right !important;
 }
+
 .flex-wrap {
   flex-wrap: wrap !important;
 }
+
 .flex-row {
   flex-direction: row !important;
 }
+
 .flex-column {
   flex-direction: column !important;
 }
@@ -999,6 +1077,7 @@ a[href^=http]:hover {
   padding: 0;
   border-collapse: collapse;
 }
+
 .deces td {
   margin: 0em;
   padding: 0em 0.3em 0em 0em;
@@ -1007,18 +1086,22 @@ a[href^=http]:hover {
   font-size: 0.8em;
   font-family: sans;
 }
+
 .deces td span {
   float: right;
 }
+
 .deces td b {
   font-weight: 900;
 }
+
 .deces td:last-child {
   text-align: right;
   vertical-align: bottom;
   white-space: nowrap;
   padding-right: 0em;
 }
+
 .deces td:last-child::after {
   content: " ans";
 }
