@@ -33,7 +33,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif, serif;
   font-size: 125%;
 }
 
@@ -202,13 +202,13 @@ a:hover {
 }
 .citation p {
   text-align: center;
-  font: bold 1.3rem "Playfair Display", serif;
+  font: bold 1.3rem "Playfair Display", serif, serif;
   margin: 0;
   line-height: 1.1;
 }
 .citation p.auteur {
   text-align: right;
-  font: normal 1em "Playfair Display", serif;
+  font: normal 1em "Playfair Display", serif, serif;
 }
 
 img#babillard {
@@ -247,7 +247,7 @@ img#babillard {
 #calctable td {
   background-color: #fff;
   padding-inline: 3px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-stretch: condensed;
 }
@@ -278,7 +278,7 @@ img#babillard {
   border-collapse: collapse;
 }
 .agenda td {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9em;
   background-color: #fff;
   padding: 0;
@@ -389,7 +389,7 @@ img#babillard {
   color: white;
   font-weight: 900;
   font-size: 1.2em;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   text-align: left;
   letter-spacing: 0.15em;
