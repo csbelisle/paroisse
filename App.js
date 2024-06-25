@@ -62,4 +62,4 @@ if (lesFeuillets) {
   }
 }
 
-document.querySelector("#mySidebar").innerHTML = "<a href='annonces.html'>Annonces <div class='articles-count'>3</div></a> <a href='sacrements.html'>Sacrements</a> <a href='equipejoie.html'>Équipe de la Joie</a> <a href='feuillets.html'>Feuillets paroissiaux</a> <a href='historique.html'>Historique</a> <a href='horaire.html'>Horaire liturgique</a> <a href='liens.html'>Quelques liens</a> <a href='contact.html'>Nous rejoindre</a> <a href='services.html'>Services</a>";
+document.querySelector("#mySidebar").innerHTML = "<a href='annonces.html'>Annonces <div class='articles-count'>4</div></a> <a href='sacrements.html'>Sacrements</a> <a href='equipejoie.html'>Équipe de la Joie</a> <a href='feuillets.html'>Feuillets paroissiaux</a> <a href='historique.html'>Historique</a> <a href='horaire.html'>Horaire liturgique</a> <a href='liens.html'>Quelques liens</a> <a href='contact.html'>Nous rejoindre</a> <a href='services.html'>Services</a>";
