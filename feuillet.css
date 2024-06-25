@@ -686,6 +686,10 @@ a[href^=http]:hover {
   margin-inline: 3rem !important;
 }
 
+.mx-4 {
+  margin-inline: 4rem !important;
+}
+
 .mx-5 {
   margin-inline: 5rem !important;
 }
@@ -704,6 +708,10 @@ a[href^=http]:hover {
 
 .my-3 {
   margin-block: 3rem !important;
+}
+
+.my-4 {
+  margin-block: 4rem !important;
 }
 
 .my-5 {
@@ -726,6 +734,10 @@ a[href^=http]:hover {
   margin-top: 3rem !important;
 }
 
+.mt-4 {
+  margin-top: 4rem !important;
+}
+
 .mt-5 {
   margin-top: 5rem !important;
 }
@@ -740,6 +752,10 @@ a[href^=http]:hover {
 
 .mb-3 {
   margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 4rem !important;
 }
 
 .mb-5 {
@@ -758,6 +774,10 @@ a[href^=http]:hover {
   margin-left: 3rem !important;
 }
 
+.ml-4 {
+  margin-left: 4rem !important;
+}
+
 .ml-5 {
   margin-left: 5rem !important;
 }
@@ -772,6 +792,10 @@ a[href^=http]:hover {
 
 .mr-3 {
   margin-right: 3rem !important;
+}
+
+.mr-4 {
+  margin-right: 4rem !important;
 }
 
 .mr-5 {
