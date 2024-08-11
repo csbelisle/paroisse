@@ -2558,7 +2558,7 @@ main {
 }
 
 #hero {
-  background-color: rgba(244, 244, 244, 0.5019607843);
+  background-color: rgba(228, 228, 244, 0.6274509804);
 }
 
 .blur {
@@ -2606,7 +2606,7 @@ main {
   z-index: 5;
   height: fit-content;
   width: fit-content;
-  background-color: rgba(244, 244, 244, 0.5019607843);
+  background-color: rgba(228, 228, 244, 0.6274509804);
   position: fixed !important;
   overflow: auto;
   margin-top: 6rem !important;
@@ -2643,12 +2643,12 @@ main {
   text-align: center;
   font-weight: 900;
   text-shadow: 1px 1px 0 #444;
-  color: #f4f4f4;
+  color: white;
   font-size: 3rem;
   width: fit-content;
   margin-inline: auto;
   padding: 0.2rem 2rem;
-  background-color: rgba(0, 0, 128, 0.1);
+  background-color: rgba(0, 0, 128, 0.3);
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 128, 0.25);
   margin-top: 0.5rem;
@@ -2658,7 +2658,7 @@ main {
   margin-top: 1rem;
   width: 180px;
   height: fit-content;
-  background-color: rgba(244, 244, 244, 0.5019607843) !important;
+  background-color: rgba(228, 228, 244, 0.6274509804) !important;
 }
 
 #subBar button:not(:last-of-type) {
@@ -2719,7 +2719,7 @@ main {
 }
 img.photo {
   color: #777;
-  background-color: rgba(244, 244, 244, 0.5019607843);
+  background-color: rgba(228, 228, 244, 0.6274509804);
   border: 1px solid rgba(179, 179, 179, 0.702);
   margin: 10px;
   padding: 10px;
@@ -2732,7 +2732,7 @@ img.photo {
   margin: 16px;
   border-radius: 8px;
   backdrop-filter: blur(5px) !important;
-  background-color: rgba(244, 244, 244, 0.5019607843);
+  background-color: rgba(228, 228, 244, 0.6274509804);
 }
 
 .card h2,
@@ -3005,7 +3005,7 @@ a.deco-none:hover .card {
 }
 
 #mySidebar {
-  background-color: rgba(244, 244, 244, 0.5019607843) !important;
+  background-color: rgba(228, 228, 244, 0.6274509804) !important;
 }
 
 #mySidebar a {
